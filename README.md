@@ -20,7 +20,7 @@ Incluye un catálogo aplicado al contexto de Ingeniería de Sistemas y validaci�
   * *Discos:* Perfil de fibra óptica $f(x) = \sqrt{x}$ en $[0, 4]$ alrededor del eje $X$ ($V = 8\pi$).
   * *Arandelas:* Disipador térmico hueco entre $f(x) = \sqrt{x}$ y $g(x) = x^2$ en $[0, 1]$ alrededor del eje $X$ ($V = \frac{3}{10}\pi$).
   * *Cascarones:* Depósito de refrigeración líquida $y = 2x^2 - x^3$ en $[0, 2]$ alrededor del eje $Y$ ($V = \frac{16}{5}\pi$).
-* **9 ejemplos adicionales precargados:** Cavidad parabólica $x = y^2$ (eje $Y$), lente/antena $f(x) = \operatorname{sen} x$, cono y esfera de verificación geométrica, aspa de ventilador con eje desplazado $y = 2$, carcasa esférica perforada, carcasa $y = \operatorname{sen}(x^2)$, cápsula IoT $y = -x^2 + 4x - 3$ y soporte con eje desplazado $x = 3$.
+* **9 ejemplos adicionales precargados:** Cavidad parabólica $x = y^2$ (eje $Y$), lente/antena $f(x) = \text{sen}\,x$, cono y esfera de verificación geométrica, aspa de ventilador con eje desplazado $y = 2$, carcasa esférica perforada, carcasa $y = \text{sen}(x^2)$, cápsula IoT $y = -x^2 + 4x - 3$ y soporte con eje desplazado $x = 3$.
 * **Modo desde cero:** Permite vaciar los campos y construir cualquier sólido personalizado.
 
 ### 3. Editor matemático inteligente y buscador de cortes
@@ -55,5 +55,3 @@ El proyecto está construido como una aplicación web autocontenida (*client-sid
 * **[Nerdamer (v1.1.13)](https://nerdamer.com/) + Web Workers:** Cálculo algebraico e integración simbólica asíncrona.
 * **[KaTeX (v0.16.9)](https://katex.org/):** Renderizado tipográfico de ecuaciones matemáticas en LaTeX.
 * **HTML5 Canvas 2D API:** Graficación dinámica de la región plana y elementos representativos.
-```[cite: 1]
-
